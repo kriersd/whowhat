@@ -14,4 +14,6 @@ In my example below I created a directory on the local machine off the root /who
 
 `docker run -d --name whowhat -p 3001:3000 -v /whowhat-logs:/whowhat-logs davekrier/whowhat:001`
 
+In this case I am monitoring the 3001 port, but you could change this to any port you want to monitor. 
+
 **Note:** In order for this to run, I had to modify the docker properites to add this directory to my known files (click on the docker icon in the tray). Under the preferences menu item select File Sharing and add this folder. 
